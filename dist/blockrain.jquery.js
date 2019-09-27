@@ -1,5 +1,5 @@
 /*!
- * BlockRain.js 0.2.0
+ * BlockRain.js 0.2.1
  * jQuery plugin that lets you put a playable (and configurable) game of Tetris in your site or just leave it in auto in the background.
  * http://aerolab.github.io/blockrain.js/
  *
@@ -247,10 +247,10 @@
 
       if( this.options.autoplay ) {
         this.autoplay(true);
-        this._setupTouchControls(false);
+        this._setupTouchControls(true);
       } else {
         this._setupControls(true);
-        this._setupTouchControls(false);
+        this._setupTouchControls(true);
       }
 
     },

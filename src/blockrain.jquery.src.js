@@ -235,10 +235,10 @@
 
       if( this.options.autoplay ) {
         this.autoplay(true);
-        this._setupTouchControls(false);
+        this._setupTouchControls(true);
       } else {
         this._setupControls(true);
-        this._setupTouchControls(false);
+        this._setupTouchControls(true);
       }
 
     },
